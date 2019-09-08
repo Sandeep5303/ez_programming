@@ -1,4 +1,4 @@
-### Find and print all the sub-unsorted arrays
+## Find and print all the sub-unsorted arrays
 For example
 * Input1:
 `l = [1, 2, 4, 3, 1, 5]`\
@@ -38,3 +38,4 @@ def num_sub_array(x):
 lista = [1, 2, 4, 3, 1, 5]
 num_sub_array(lista)
 ```
+## I hope you liked the code!!:smiley:
