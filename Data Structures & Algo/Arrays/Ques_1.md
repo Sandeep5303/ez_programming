@@ -5,9 +5,13 @@ For example
 output: `4 3 1`
 
 * Input2:
-` = [1, 2, 4, 3, 1, 5, 0]`\
+`l = [1, 2, 4, 3, 1, 5, 0]`\
 output: `4 3 1`\
 `5 0`
+
+* Input3:
+`l = [1, 2, 3, 4, 5]`\
+output: `No Unsorted Array Found`
 
 ```python
 def num_sub_array(x):
