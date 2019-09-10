@@ -11,13 +11,13 @@ Output = `[1, 3, 6, -2, -4]`
 ```python
 def reg(x):
     for i in range(len(x)):
-        if x[i] > 0: # if element is +ve then skip
+        if x[i] > 0: # if number is +ve then skip
             continue
         else: # if element is -ve
-            if i != len(x)-1 and x[i+1] > 0:
+            if i != len(x)-1 and x[i+1] > 0: # if after -ve numbers a +ve number is found then start swaping otherwise search for +ve number
                 j = i+1
                 while j >= 0 and x[j-1] < 0:
-                    x[j], x[j-1] = x[j-1], x[j] # swap the +ve number and -ve number untill the +ve number shifted to left and all the -ve elements are shifted to right
+                    x[j], x[j-1] = x[j-1], x[j] # swap the +ve number and -ve number untill the +ve number shifted to left and all the -ve numbers are shifted to right
                     j -= 1
     return x
 
