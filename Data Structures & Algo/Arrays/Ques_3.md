@@ -26,7 +26,8 @@ li = [1, -2, 3, -4, 6]
 print(reg(li))
 ```
 
-### Alternative Approach Credits to @Visheshgpt
+### Alternative Approach 
+Credits to @Visheshgpt
 ```python
 li = [9,4,-3,-2,1,-1,5,7,-9,-5]
 k = len(li)
