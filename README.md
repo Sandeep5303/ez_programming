@@ -1,6 +1,7 @@
 # Welcome to ez_programming page
 
-Here i'll post some random coding questions and their solutions
+Here i'll post some random coding questions and their solutions\
+Most of the questions are done in python language
 
 ## Table of Contents:
 - [Data Structures and Algorithms](https://github.com/Sandeep5303/ez_programming/tree/master/Data%20Structures%20%26%20Algo)
