@@ -19,16 +19,18 @@ Output:
  ```
 ### Please try to implement yourself before reading the logic and code
 > There are many ways to solve this problem, but here i am using combination formula method
+
 * Logic:
-```
-Main logic of the problem is to find the nCr(combination formula) value
-nCr = n!/(r!*(n-r)!)
+>>>
+Main logic of the problem is to find the <sup>n</sup>C<sub>r</sub> (combination formula) value where
+<sup>n</sup>C<sub>r</sub> = n!/(r!*(n-r)!)
 Lets take an example for n = 3
 The output must be
+>>>
+```
 0th row-   1
 1st row-  1 1
 2nd row- 1 2 1
- 
 The above pattern can be represented by (nCr)
 0th row-       1
              (0C0)
@@ -41,7 +43,7 @@ i for n
 j for r
 ```
 Note:
-> The nCr values gives the corresponding number by `nCr = n!/(r!*(n-r)!)` formula, For example 2C0 = 1 and 2C1 = 2 etc.
+> The <sup>n</sup>C<sub>r</sub> values gives the corresponding number by `nCr = n!/(r!*(n-r)!)` formula, For example 2C0 = 1 and 2C1 = 2 etc.
 
 **Code:**
 ```python
